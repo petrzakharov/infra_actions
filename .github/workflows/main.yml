@@ -69,4 +69,4 @@ jobs:
           sudo docker pull zakharovp/infra_img
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 zakharovp/infra_img 
+          sudo docker run --rm -d -p 5000:5000 zakharovp/infra_img
